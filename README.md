@@ -1,2 +1,2 @@
-# omniauth-opengem
-Omniauth Strategy for OpenGem
+# omniauth-sapphire
+Omniauth Strategy for Sapphire.moe accounts

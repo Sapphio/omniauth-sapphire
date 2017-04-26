@@ -2,14 +2,14 @@ require 'omniauth-oauth2'
 
 module OmniAuth
   module Strategies
-    class Opengem < OmniAuth::Strategies::OAuth2
+    class Sapphire < OmniAuth::Strategies::OAuth2
 
-      option :name, 'opengem'
+      option :name, 'sapphire'
 
       option :client_options, {
-        :site => 'https://accounts.opengem.org',
-        :authorize_url => 'https://accounts.opengem.org/oauth/authenticate',
-        :token_url => 'https://accounts.opengem.org/oauth/access_token'
+        :site => 'https://accounts.sapphire.moe',
+        :authorize_url => 'https://accounts.sapphire.moe/oauth/authenticate',
+        :token_url => 'https://accounts.sapphire.moe/oauth/access_token'
       }
 
       uid { raw_info['id'] }
